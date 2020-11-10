@@ -18,7 +18,7 @@
 
 #define ENTER 0X0D
 #define BACKSPACE 0X08
-#define MAX_BUFF 340
+#define MAX_BUFF 2000
 /**********************************************************************************************************
  * void command_input()
  * Accepts commands from the user
