@@ -18,8 +18,7 @@
 
 #define ENTER 0X0D
 #define BACKSPACE 0X08
-
-
+#define MAX_BUFF 340
 /**********************************************************************************************************
  * void command_input()
  * Accepts commands from the user
@@ -28,7 +27,7 @@
 
 void command_input()
 {
-	char buffer[10];
+	char buffer[MAX_BUFF];
 	uint8_t cha;
 	size_t size;
 	int i=0;
