@@ -92,9 +92,6 @@ void process_command(char *input) //code from howdy's lecture 11
 
 
 	// TODO: Dispatch argc/argv to handler
-	for (int i=0; i<argc; i++)
-		printf("argv[%d] = %s ", i, argv[i]);
-	putchar('\n');
 	switch(argc)
 	{
 	case 1: //if just 1 argument present pass for command 1 handler //if adding commands can have command handler of their own n passit here;
